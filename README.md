@@ -1,16 +1,28 @@
 # Dr-Angela-Yu-100-Days-of-Python
 
-Rock Paper Scissors Game
-  - I used random module with random.choice() function to get random move from computer
-  - I used input prompt to get user's answer
-  - If statements for conditions
-
 FizzBuzz Game
   - I wrote a program that automatically prints the solution to the FizzBuzz game
   - I created a for loop with the range() function
   - The range had to include the numbers from 1 to 100
   - I created an if statement with certain conditions
   - I used the modulo operator to check if the numbers are divisible by 5 or 3 or both 5 and 3
+
+Password Generator Program
+  - I created a password generating program by getting the number of characters for each character type
+  - Used the input prompt to ask the user how many letters, numbers and symbols to use for the password
+  - Created an empty list to hold all the randmon characters
+  - Created a for loop with a range function to generate random characters
+  - Used random.choice() method to generate random characters
+  - Appended that random number to the empty list which is the total_characters
+  - Got the length of total characters and created an empty string variable
+  - Created a for loop with the range function using the length of total characters as an argument
+  - Got the random character in the total_characters list. Remove it from the list using remove() method and add it to the password string using arithmetic operations
+  - Print your newly generated password
+
+Rock Paper Scissors Game
+  - I used random module with random.choice() function to get random move from computer
+  - I used input prompt to get user's answer
+  - If statements for conditions
 
 Get Average Height
   - (NOT ALLOWED TO USE len() and sum() function for this project)
