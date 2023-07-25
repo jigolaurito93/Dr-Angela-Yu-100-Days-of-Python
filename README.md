@@ -25,3 +25,11 @@ Highest Score
   - Set up a for loop to run each score
   - Used comparison operator for each score and if the score is greater than the current value, that will replace the current highest score
   - print the highest score variable
+
+Adding Even Numbers
+  - I wrote a program that calculates the sum of all the even numbers from 1 to 100. Thus, the first even number would be 2 and the last one is 100
+  - Created a variable called sum_of_even_numbers and put 0 as its initial value
+  - Created a for loop with the range function
+  - Created an if statement that checks if the number is an even number
+  - Using the modulo operator, I divided the number to 2, if the result is 0, that means the number is even
+  - Printed sum_of_even_numbers
