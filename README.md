@@ -6,6 +6,7 @@ Rock Paper Scissors Game
   - If statements for conditions
 
 Get Average Height
+  - (NOT ALLOWED TO USE len() and sum() function for this project)
   - Used input prompt to get the value of heights of every student
   - Used the split() method to convert it to a list
   - Set up a counter variable to 0
