@@ -5,6 +5,13 @@ Rock Paper Scissors Game
   - I used input prompt to get user's answer
   - If statements for conditions
 
+FizzBuzz Game
+  - I wrote a program that automatically prints the solution to the FizzBuzz game
+  - I created a for loop with the range() function
+  - The range had to include the numbers from 1 to 100
+  - I created an if statement with certain conditions
+  - I used the modulo operator to check if the numbers are divisible by 5 or 3 or both 5 and 3
+
 Get Average Height
   - (NOT ALLOWED TO USE len() and sum() function for this project)
   - Used input prompt to get the value of heights of every student
@@ -33,3 +40,5 @@ Adding Even Numbers
   - Created an if statement that checks if the number is an even number
   - Using the modulo operator, I divided the number to 2, if the result is 0, that means the number is even
   - Printed sum_of_even_numbers
+
+
