@@ -1,5 +1,28 @@
 # Dr-Angela-Yu-100-Days-of-Python
 
+Reeborg's World [Game] (Hurdle 3)
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+  - Created a function that assigns a specific movement for the robot
+  - Nested a while loop with if statements
+    ex. (Click the url and use this code I created for the game)
+
+def dead_end():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    if not wall_in_front():
+        move()
+    elif wall_in_front():
+        dead_end()
+        
+  - While the robot is not at the goal, the program will keep running
+
 FizzBuzz Game
   - I wrote a program that automatically prints the solution to the FizzBuzz game
   - I created a for loop with the range() function
