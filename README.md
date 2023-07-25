@@ -16,3 +16,12 @@ Get Average Height
   - Used arithmetic operation to  increment counter for every student
   - Divided the sum of heights to the number of students and rounding it off to the nearest whole number
 
+Highest Score
+  - I have to write a program that calculates the highest score from a list
+  - I'm not allowed to use max() or min() function
+  - I used the input prompt to get the value of the numbers
+  - I used the split() method to convert the string to a list
+  - Set up a variable named "highest score" with a zero value temporarily
+  - Set up a for loop to run each score
+  - Used comparison operator for each score and if the score is greater than the current value, that will replace the current highest score
+  - print the highest score variable
