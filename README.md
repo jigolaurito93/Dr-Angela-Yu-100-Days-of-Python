@@ -1,5 +1,14 @@
 # Dr-Angela-Yu-100-Days-of-Python
 
+Hangman Game
+  - Created a game using while and for loops, if statements
+  - Made a list of words where you can randomly choose from and use as a word to guess using a random.choice() module
+  - Used a input prompt to ask user for a letter to guess the word
+  - created a variable called lives with the value of 6 which decerements every time the used makes a mistake, when lives reach zero, the game ends.
+  - In the while loop is where my entire code lives. The game doesnt end until a certain condition is met
+  - Created a boolean variable with a value of True which makes the game run unless you run out of lives
+  - Imported ASCII art to give visuals to the game
+
 Reeborg's World [Game] (Hurdle 3)
 https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
   - Created a function that assigns a specific movement for the robot
